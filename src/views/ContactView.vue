@@ -115,8 +115,7 @@ function closeEmailPopup() {
   max-width: 900px;
   width: 100%;
   text-align: center;
-  transform: translateY(-80px);
-  position: relative; /* da je iznad videa */
+  margin-top: 50px;
   z-index: 1;
 }
 

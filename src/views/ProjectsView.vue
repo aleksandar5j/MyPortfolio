@@ -10,7 +10,7 @@
 
     <!-- CONTENT -->
     <section class="projects-box">
-      <h1 class="animate left delay-1">My <span>Projects</span></h1>
+      <h1 class="animate left delay-1"><span>My</span> Projects</h1>
       <p class="animate left delay-2">
         Here are some of the web applications and websites I've built. Click on each project to view
         more details.
@@ -42,13 +42,13 @@ const projects = ref([
   {
     name: 'Aleksandar Travel',
     description: 'Tourism agency website with destinations, arrangements and gallery.',
-    image: '/src/videos-images/aleksandartravel.png',
+    image: '/src/videos-images/aleksandartravel.jpg',
     link: 'https://github.com/aleksandar5j/AleksandarTravel',
   },
   {
     name: 'Moj Kuvar - MyCooker',
     description: 'Modern site to find your favorite recipe!',
-    image: '/src/videos-images/mojkuvar.png',
+    image: '/src/videos-images/mojkuvar.jpg',
     link: 'https://565q123.e2.mars-hosting.com',
   },
 ])
@@ -64,7 +64,6 @@ const projects = ref([
   justify-content: flex-start; /* stavlja sadržaj ka vrhu */
   padding: 180px 20px; /* prostor odozgo */
   color: #e5e7eb;
-  overflow: hidden;
 }
 
 /* VIDEO */
@@ -102,7 +101,7 @@ const projects = ref([
 }
 
 .projects-box h1 span {
-  color: #ffffff;
+  color: white;
 }
 
 .projects-box p {

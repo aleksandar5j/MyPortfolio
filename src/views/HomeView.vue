@@ -65,7 +65,7 @@
   text-align: center;
   max-width: 700px;
   padding: 20px;
-  transform: translateY(-80px);
+  margin-top: 40px;
 }
 
 .hero h1 {

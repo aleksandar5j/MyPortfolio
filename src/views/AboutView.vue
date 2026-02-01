@@ -17,7 +17,7 @@
 
       <!-- TEXT -->
       <div class="text">
-        <h1>About Me</h1>
+        <h1>About <span>Me</span></h1>
 
         <p>
           Hi, I'm <span>Aleksandar</span>, a passionate FullStack Web Developer. Ever since I
@@ -52,7 +52,6 @@
   justify-content: center;
   color: #e5e7eb;
   padding: 40px 20px;
-  overflow: hidden;
   flex-direction: column;
 }
 
@@ -65,6 +64,7 @@
   object-fit: cover;
   z-index: -2;
   filter: blur(6px);
+  overflow: hidden; /* opcionalno */
 }
 
 /* OVERLAY */
@@ -77,6 +77,7 @@
 
 /* ABOUT BOX */
 .about-box {
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -84,7 +85,6 @@
   text-align: center;
   z-index: 1;
   gap: 30px;
-  transform: translateY(-150px);
 }
 
 .avatar img {
@@ -98,12 +98,13 @@
 
 .text h1 {
   font-size: 42px;
-  font-weight: 800;
   margin-bottom: 16px;
+  color: white;
 }
 
 .text h1 span {
   color: #38bdf8;
+  font-weight: 800;
 }
 
 .text p {

@@ -3,7 +3,8 @@
     <nav class="nav">
       <RouterLink to="/" class="logo">Aleksandar Jovanovic</RouterLink>
 
-      <div class="links">
+      <!-- DESKTOP LINKS -->
+      <div class="links desktop">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/skills">Skills</RouterLink>
@@ -11,14 +12,22 @@
         <RouterLink to="/contact">Contact</RouterLink>
       </div>
     </nav>
-
-    <main>
-      <RouterView></RouterView>
-    </main>
   </header>
+
+  <main class="page">
+    <RouterView />
+  </main>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from 'vue'
+
+const isOpen = ref(false)
+
+const close = () => {
+  isOpen.value = false
+}
+</script>
 
 <style scoped>
 .header {

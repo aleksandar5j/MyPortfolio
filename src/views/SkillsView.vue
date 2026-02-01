@@ -10,7 +10,9 @@
 
     <!-- CONTENT -->
     <section class="skills-box">
-      <h1 class="animate left delay-1">My Skills</h1>
+      <h1 class="animate left delay-1">
+        My <span style="color: #38bdf8; font-weight: bold">Skills</span>
+      </h1>
       <p class="animate left delay-2">
         Here are some of the technologies and skills I work with regularly, along with my
         proficiency level.
@@ -79,13 +81,18 @@ const skills = ref([
   width: 100%;
   text-align: center;
   z-index: 1;
+  margin-top: 90px;
 }
 
 .skills-box h1 {
   font-size: 42px;
-  font-weight: 800;
   margin-bottom: 12px;
+  color: white;
+}
+
+.skills-box h1 span {
   color: #38bdf8;
+  font-weight: 800;
 }
 
 .skills-box p {
@@ -164,6 +171,14 @@ const skills = ref([
 @media (min-width: 768px) {
   .skills-box {
     text-align: left;
+  }
+}
+
+@media (max-width: 768px) {
+  .skills {
+    overflow: auto; /* dozvoli scroll */
+    min-height: auto;
+    padding-top: 80px; /* malo prostora za header */
   }
 }
 </style>
