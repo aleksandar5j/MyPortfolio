@@ -42,13 +42,13 @@ const projects = ref([
   {
     name: 'Aleksandar Travel',
     description: 'Tourism agency website with destinations, arrangements and gallery.',
-    image: '/src/videos-images/aleksandartravel.jpg',
+    image: 'public/aleksandartravel.jpg',
     link: 'https://github.com/aleksandar5j/AleksandarTravel',
   },
   {
     name: 'Moj Kuvar - MyCooker',
     description: 'Modern site to find your favorite recipe!',
-    image: '/src/videos-images/mojkuvar.jpg',
+    image: 'public/mojkuvar.jpg',
     link: 'https://565q123.e2.mars-hosting.com',
   },
 ])

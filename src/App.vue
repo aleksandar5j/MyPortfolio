@@ -19,16 +19,6 @@
   </main>
 </template>
 
-<script setup>
-import { ref } from 'vue'
-
-const isOpen = ref(false)
-
-const close = () => {
-  isOpen.value = false
-}
-</script>
-
 <style scoped>
 .header {
   background-color: rgba(2, 6, 23, 0.95); /* skoro crna, ne meša se sa videom */
