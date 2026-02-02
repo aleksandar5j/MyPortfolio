@@ -40,6 +40,7 @@ const skills = ref([
   { name: 'Vue.js', level: 85 },
   { name: 'MySQL', level: 75 },
   { name: 'Git', level: 90 },
+  { name: 'REST APIs', level: 85 },
 ])
 </script>
 
