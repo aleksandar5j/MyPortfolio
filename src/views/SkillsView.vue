@@ -38,7 +38,6 @@ const skills = ref([
   { name: 'HTML/CSS', level: 95 },
   { name: 'JavaScript', level: 90 },
   { name: 'Vue.js', level: 85 },
-  { name: 'Node.js', level: 80 },
   { name: 'MySQL', level: 75 },
   { name: 'Git', level: 90 },
 ])
@@ -51,13 +50,12 @@ const skills = ref([
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* stavlja sadržaj ka vrhu */
-  padding: 100px 20px; /* prostor odozgo */
+  justify-content: flex-start;
+  padding: 100px 20px;
   color: #e5e7eb;
   overflow: hidden;
 }
 
-/* VIDEO */
 .bg-video {
   position: absolute;
   inset: 0;
@@ -75,7 +73,6 @@ const skills = ref([
   z-index: -1;
 }
 
-/* CONTENT */
 .skills-box {
   max-width: 800px;
   width: 100%;
@@ -101,7 +98,6 @@ const skills = ref([
   margin-bottom: 30px;
 }
 
-/* SKILL ITEM */
 .skill {
   margin-bottom: 24px;
 }
@@ -129,7 +125,6 @@ const skills = ref([
   transition: width 1.2s ease;
 }
 
-/* ANIMATIONS */
 .animate {
   opacity: 0;
   animation: fadeIn 0.8s ease forwards;
@@ -157,7 +152,6 @@ const skills = ref([
   }
 }
 
-/* RESPONSIVE */
 @media (min-width: 768px) {
   .skills-box {
     text-align: left;
@@ -167,7 +161,6 @@ const skills = ref([
   }
 }
 
-/* RESPONSIVE */
 @media (min-width: 768px) {
   .skills-box {
     text-align: left;
@@ -176,9 +169,9 @@ const skills = ref([
 
 @media (max-width: 768px) {
   .skills {
-    overflow: auto; /* dozvoli scroll */
+    overflow: auto;
     min-height: auto;
-    padding-top: 80px; /* malo prostora za header */
+    padding-top: 80px;
   }
 }
 </style>

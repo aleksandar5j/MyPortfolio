@@ -41,14 +41,15 @@ import { ref } from 'vue'
 const projects = ref([
   {
     name: 'Aleksandar Travel',
-    description: 'Tourism agency website with destinations, arrangements and gallery.',
-    image: '/public/aleksandartravel.jpg',
+    description:
+      'Tourism agency website with destinations, arrangements and gallery. (Site is on Serbian)',
+    image: '/videos-images/aleksandartravel.jpg',
     link: 'https://github.com/aleksandar5j/AleksandarTravel',
   },
   {
     name: 'Moj Kuvar - MyCooker',
-    description: 'Modern site to find your favorite recipe!',
-    image: '/public/mojkuvar.jpg',
+    description: 'Modern site to find your favorite recipe! (Site is on Serbian)',
+    image: '/videos-images/mojkuvar.jpg',
     link: 'https://565q123.e2.mars-hosting.com',
   },
 ])
@@ -62,7 +63,7 @@ const projects = ref([
   flex-direction: column;
   align-items: center;
   justify-content: flex-start; /* stavlja sadržaj ka vrhu */
-  padding: 180px 20px; /* prostor odozgo */
+  padding: 230px 20px; /* prostor odozgo */
   color: #e5e7eb;
 }
 
