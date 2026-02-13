@@ -2,15 +2,12 @@
 
 <template>
   <main class="home">
-    <!-- VIDEO BACKGROUND -->
     <video autoplay muted loop playsinline class="bg-video">
       <source src="/src/videos-images/coding.mp4" type="video/mp4" />
     </video>
 
-    <!-- OVERLAY -->
     <div class="overlay"></div>
 
-    <!-- CONTENT -->
     <section class="hero">
       <h1 class="animate left delay-1"><span>Hi, I'm</span> Aleksandar</h1>
 
@@ -32,7 +29,7 @@
 <style scoped>
 .home {
   position: relative;
-  height: 100vh;
+  height: 92.2vh;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -40,9 +37,8 @@
   color: #e5e7eb;
 }
 
-/* VIDEO */
 .bg-video {
-  position: absolute; /* FIXED da bude preko celog ekrana */
+  position: absolute;
   inset: 0;
   top: 0;
   left: 0;
@@ -53,7 +49,6 @@
   filter: blur(6px);
 }
 
-/* DARK OVERLAY */
 .overlay {
   position: absolute;
   inset: 0;
@@ -65,7 +60,6 @@
   text-align: center;
   max-width: 700px;
   padding: 20px;
-  margin-top: 40px;
 }
 
 .hero h1 {

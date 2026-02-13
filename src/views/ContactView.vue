@@ -79,7 +79,7 @@ function closeEmailPopup() {
 
 <style scoped>
 .contact {
-  min-height: 100vh;
+  min-height: 92.2vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -115,7 +115,6 @@ function closeEmailPopup() {
   max-width: 900px;
   width: 100%;
   text-align: center;
-  margin-top: 50px;
   z-index: 1;
 }
 

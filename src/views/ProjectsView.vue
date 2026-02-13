@@ -58,12 +58,12 @@ const projects = ref([
 <style scoped>
 .projects {
   position: relative;
-  min-height: 100vh;
+  min-height: 92.2vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start; /* stavlja sadržaj ka vrhu */
-  padding: 230px 20px; /* prostor odozgo */
+  justify-content: center; /* stavlja sadržaj ka vrhu */
+  padding: 30px 20px; /* prostor odozgo */
   color: #e5e7eb;
 }
 

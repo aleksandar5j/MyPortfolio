@@ -47,12 +47,12 @@ const skills = ref([
 <style scoped>
 .skills {
   position: relative;
-  min-height: 100vh;
+  min-height: 92.2vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
-  padding: 100px 20px;
+  justify-content: center;
+  padding: 10px 20px;
   color: #e5e7eb;
   overflow: hidden;
 }
@@ -79,7 +79,6 @@ const skills = ref([
   width: 100%;
   text-align: center;
   z-index: 1;
-  margin-top: 90px;
 }
 
 .skills-box h1 {

@@ -46,7 +46,7 @@
 <style scoped>
 .about {
   position: relative;
-  min-height: 100vh;
+  min-height: 92.2vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,7 +77,7 @@
 
 /* ABOUT BOX */
 .about-box {
-  margin-top: 100px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
