@@ -23,7 +23,7 @@
           :key="project.name"
           :style="{ animationDelay: `${0.3 + index * 0.2}s` }"
         >
-          <img :src="project.image" :alt="project.name" />
+          <img :src="project.image" />
           <h3>{{ project.name }}</h3>
           <p>{{ project.description }}</p>
           <a :href="project.link" target="_blank" rel="noopener noreferrer" class="btn primary">
@@ -51,6 +51,12 @@ const projects = ref([
     description: 'Modern site to find your favorite recipe! (Site is on Serbian)',
     image: '/videos-images/mojkuvar.jpg',
     link: 'https://565q123.e2.mars-hosting.com',
+  },
+  {
+    name: 'ExpenseEye',
+    description:
+      'Personal expense tracking web application with visual statistics and dashboard. (Project code currently removed.)',
+    link: 'https://github.com/aleksandar5j/ExpenseEye',
   },
 ])
 </script>

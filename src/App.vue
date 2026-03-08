@@ -43,7 +43,7 @@ function closeMobile() {
 
 <style scoped>
 .header {
-  background-color: rgba(2, 6, 23, 0.95); /* skoro crna, ne meša se sa videom */
+  background-color: rgba(2, 6, 23, 0.95);
   color: #e5e7eb;
   position: fixed;
   top: 0;
